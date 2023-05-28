@@ -1,1 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="style.css" href="css/style.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="/css/style.css">
+      <title>PAPELERIA</title>
 
+
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <style>
+      .fondo{
+            background-color:#d3d3d3;
+          }
+      #barra1{
+            background-image: src="img/logo3.jpg";
+            background-size: 100%;
+          }
+      #titulo{
+            font-weight: bold;
+            color:black;
+          }
+      #cuerpo{
+          background-color:#e9967a;
+      }
+      #subtitulos{
+          font-weight: bold;
+          color:#FFFFFF;
+          font-size:40px;
+        }
+      #subtitulos2{
+          font-weight: bold;
+          color:#BA945A;
+          font-size:30px;
+        }
+      #subtitulos3{
+          font-weight: bold;
+          color:#BA945A;
+          font-size:20px;
+        }
+      #subtitulos4{
+          font-weight: bold;
+          color:#303240;
+          font-size:20px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <div class="fondo">
+    <div class="container" id="barra1">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1 id="titulo"><img src="img/logo1.jpg" height="130px">PAPELERIA"EL BOTITA"</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container" id="cuerpo" >
+      <!-- ingreso el navbar de boostrap -->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">INICIO</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a id="letmenu" href="productos.html">PRODUCTOS</a></li>
+              <li><a id="letmenu" href="promociones.html">PROMOCIONES</a></li>
+              <li><a id="nosotros" href="nosotros.html">NOSOTROS</a></li>
+              <li><a id="letmenu" href="contactos.html">CONTACTOS</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ver mas <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">productos</a></li>
+                  <li><a href="#">promociones</a></li>
+                  <li><a href="#">nosotros</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">contactos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+    <!-- /.pagina de iniciio -->
+    <div class="container " id="cuerpo">
+		<h1 id="subtitulos" class="text-center"> BIENVENIDOS</h1>
+		<hr size="8px" color="black" />
+		<div class="row">
+			<div class="col-md-3">
+				<br>
+				<br>
+				<div class="panel panel-warning">
+				  <div class="panel-heading" id="subtitulos2">MARCAS PRINCIPALES</div>
+				  <div class="panel-body">
+						“Para mejorar nuestro servicio contamos con:
+						Ventas al por mayor y menor
+						Entregas a domicilio para clientes mayoristas
+						Asesoramiento a emprendedores
+						Importadores y distribuidores en las mejores marcas”
+
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img src="img/caru1.jpg" height="130px">
+				    </div>
+
+				    <div class="item">
+				      <img src="img/caru2.jpg" height="130px">
+				    </div>
+
+				    <div class="item">
+				      <img src="img/caru3.jpg" height="130px">
+				    </div>
+
+						<div class="item">
+				      <img src="img/caru4.jpg" height="130px">
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<br>
+				<br>
+				<div class="panel panel-warning">
+				  <div class="panel-heading" id="subtitulos2">PRODUCTOS DESCTACADOS</div>
+					<br>
+					<br>
+				  <div class="panel-body">
+						“Nos importa la calidad de los productos que necesitas para tus hijos o negocio, por eso trabajamos con las mejores marcas al mejor precio”
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<hr size="8px" color="black" />
+	</div>
+
+
+    <!-- /.Pie de pagina -->
+    <div class="container" id="barra1">
+        <div class="row text-center" style="background-color:#272727;color:#FFFFFF;" >
+          <div class="col-md-6 ">
+            <h4>PAPELERIA "EL BOTITA" &copy</h4>
+            <hr size="8px" color="WHITE" />
+            <h5>Creado para brindar el producto de primera necesidad de los clientes </h5>
+            <h5>2023-2023</h5>
+
+
+          </div>
+          <div class="col-md-6 ">
+            <h5>Ubicacion</h5>
+            <h5>C. calle principal simon bolivar Quito</h5>
+            <h5>Contacto:0979510617</h5>
+            <h5>Gmail:papel.botia@gmail.com</h5>
+          </div>
+        </div>
+
+    </div>
+  </body>
+  </html>
